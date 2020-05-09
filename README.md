@@ -10,5 +10,7 @@ Higher School of Economics in Moscow.
 - Pilot input file to test out design (Baby database)
 - Guide to semantic tags in input
 - Russian Constructicon logo
-### Note: googlesheet versions of the Baby database and semantic tags are available at this site:
+### Note 1: Googlesheet versions of the Baby database and semantic tags are available at this site:
 - https://docs.google.com/spreadsheets/d/1WY8-V9aOM08CFwdQPlWamZjLu15gZ0Fa17Sq4uQKl-A/edit#gid=898499791
+### Note 2: Here is the link to the old constructicon, which is also on github:
+- https://github.com/prodotiscus/russian-constructicon
