@@ -7,5 +7,8 @@ Higher School of Economics in Moscow.
 ## Contents:
 - Ideas for the design of the website
 - Template for the input file for the website
-- Pilot input file to test out design
+- Pilot input file to test out design (Baby database)
+- Guide to semantic tags in input
 - Russian Constructicon logo
+### Note: googlesheet versions of the Baby database and semantic tags are available at this site:
+- https://docs.google.com/spreadsheets/d/1WY8-V9aOM08CFwdQPlWamZjLu15gZ0Fa17Sq4uQKl-A/edit#gid=898499791
