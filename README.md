@@ -6,7 +6,6 @@ collaboration of researchers at UiT The Arctic University of Norway and
 Higher School of Economics in Moscow.
 ## Contents:
 - Ideas for the design of the website
-- Template for the input file for the website
 - Pilot input file to test out design (Baby database)
 - Guide to semantic tags in input
 - Russian Constructicon logo
