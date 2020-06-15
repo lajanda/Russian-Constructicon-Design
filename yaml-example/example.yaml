@@ -1,0 +1,129 @@
+---
+165:
+  spraakbanken_url: |
+      https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--какой_%2F_какое_(там)_VP-Inf.Imp!&map=false
+  year: 2018
+  name: какой (там)/какое там VP-Inf.Imp!
+  illustration: Какое там гулять! У нас нет времени!
+  cefr_level: C1
+  definitions:
+    - russian: |
+          Конструкция обозначает, что говорящий отклоняет
+          [действие]Action , названное в предыдущем контексте, потому что
+          считает это действие неуместным или несвоевременным. Обычно
+          конструкция используется в ситуации диалога и выражает реакцию
+          говорящего на предшествующую реплику собеседника. Конструкция
+          также встречается при передаче внутренней речи говорящего,
+          которая конструируется как диалог говорящего с самим собой.
+    - english: |
+          This construction means that the speaker rejects the suggested
+          action named in the preceding context, because he/she finds
+          this action inappropriate or poorly timed. Usually, this
+          construction is used in a dialogue and expresses the speaker’s
+          reaction to the preceding remark of his/her conversation
+          partner. The construction can also occur when presenting the
+          inner monologue of the speaker that is constructed as a
+          conversation in which the speaker is talking to him- or
+          herself.
+  examples:
+    - |
+      "― Ладно, пойду [спать]Action! ― [ Какой [спать]Action]какой_VP-Inf!,
+      Марина Михайловна? ― возмутилась Ира. ― Посидите
+      с нами, хоть чайку попейте."
+    - |
+      "― Вам суп [наливать]Action? Я посмотрела на суп.
+      [ Какое там [наливать]Action! ]какой_VP-Inf!
+      Серый, непрозрачный, он не вызывал у меня аппетита.
+      ― Нет, благодарю, ответила я."
+    - |
+      "И вот народ галдит. Я там присел, попытался
+      [помедитировать]Action как-то.
+      [ Какое там [медитировать]Action ]какой_VP-Inf! !
+      Ничего подобного там и близко невозможно – весь этот галдеж и тусовка."
+    - "[ [Какой]какой [петь]Action ]какой_VP-Inf! — время уже позднее!"
+  morphology: VP, Inf
+  syntactic_function_of_construction: Clause
+  syntactic_function_of_anchor: ModalAdv
+  syntactic_structure_of_anchor: Not Applicable
+  part_of_speech_of_anchor: Adv, Pron
+  semantic_types:
+    - type: Reaction to the previous discourse
+      subtype: Disagreement
+  semantic_roles:
+    - Action
+  communicative_type: Exclamatory
+  usage_label: Colloquial
+  anchor_words:
+    - какой
+    - какое
+    - там
+  common_fillers:
+    - спать
+    - работать
+    - гулять
+    - отдыхать
+  comment: |
+      см. конструкцию какой / какое (там) VP-Past! – Какой там поел!
+      и конструкцию какой / какое (там) Adv/Adj! – Какое там быстро!
+  structure_in_ud: |
+      [[advmod какой [advmod там]] VP-Inf.Imp!] [[advmod какое
+      [advmod там]] VP-Inf.Imp!]
+
+17:
+  spraakbanken_url: |
+      https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--(NP-Dat)_давно_пора_VP-Inf&map=false
+  year: 2018
+  name: (NP-Dat) давно пора VP-Inf
+  illustration: Детям давно пора поесть
+  cefr_level: B1
+  definitions:
+    - russian: |
+          Конструкция обозначает, что, по мнению говорящего, [событие]Goal
+          должно было наступить раньше настоящего момента или [участник
+          ситуации]Stimulus должен был выполнить
+    - english: |
+          This construction means that, according to the speaker, a given
+          [event]Goal should already have taken place, or a [participant in the
+          situation]Stimulus should already have performed a certain
+          [Action]Goal.
+    - norwegian: |
+          Ved hjelp av denne konstruksjonen uttrykker taleren at en gitt
+          [hendelse]Goal etter vedkommendes mening allerede burde ha funnet
+          sted, eller at [deltageren i en viss situasjon]Stimulus allerede
+          burde ha utført en gitt [handling]Goal.
+  examples:
+    - |
+      "Да и [ [спать]Goal [давно]давно [пора]пора ]давно_пора_VP !"
+    - |
+      "Она говорит, что [ [дочери]Stimulus [давно]давно [пора]пора [найти
+      мужа]Goal ]давно_пора_VP, но она говорит, что пока ещё не хочет замуж."
+    - |
+      "Отец объявляет, что [ [сыну]Experiencer [давно]давно [пора]пора
+      [домой]Goal ]давно_пора_VP."
+  morphology: NP, Dat, VP, Inf
+  syntactic_function_of_construction: Clause
+  syntactic_function_of_anchor: Praedic
+  syntactic_structure_of_anchor: NP
+  part_of_speech_of_anchor: Adv, Noun
+  semantic_types:
+    - type: Temporal expression
+      subtype: Proper time
+    - type: Causation
+      subtype: Direct
+    - type: Root modality
+      subtype: "Necessity: Internal"
+  semantic_roles:
+    - Stimulus
+    - Goal
+  communicative_type: Assertive
+  usage_label: NA
+  anchor_words:
+    - давно
+    - пора
+  common_fillers:
+    - спать
+    - есть
+    - ложиться
+  structure_in_ud: |
+      [root [nmod NP-Dat] [advmod давно] пора [nsubj VP-Inf]] [root [nmod
+      детям] [advmod давно] пора [nsubj поесть]]
